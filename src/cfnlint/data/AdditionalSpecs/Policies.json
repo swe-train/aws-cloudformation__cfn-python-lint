@@ -5184,6 +5184,7 @@
     "DeleteDatastore",
     "DeleteImageSet",
     "GetDICOMImportJob",
+    "GetDICOMInstance",
     "GetDatastore",
     "GetImageFrame",
     "GetImageSet",
@@ -10498,6 +10499,18 @@
     "aws:ResourceTag/${TagKey}",
     "aws:TagKeys"
    ]
+  },
+  "AWS User Subscriptions": {
+   "Actions": [
+    "CreateClaim",
+    "DeleteClaim",
+    "ListApplicationClaims",
+    "ListClaims",
+    "ListUserSubscriptions",
+    "UpdateClaim"
+   ],
+   "HasResource": false,
+   "StringPrefix": "user-subscriptions"
   },
   "AWS Verified Access": {
    "Actions": [
@@ -19196,6 +19209,7 @@
     "DescribeIAMPolicyAssignment",
     "DescribeIngestion",
     "DescribeIpRestriction",
+    "DescribeKeyRegistration",
     "DescribeNamespace",
     "DescribeRefreshSchedule",
     "DescribeRoleCustomPermission",
@@ -19295,6 +19309,7 @@
     "UpdateIAMPolicyAssignment",
     "UpdateIdentityPropagationConfig",
     "UpdateIpRestriction",
+    "UpdateKeyRegistration",
     "UpdatePublicSharingSettings",
     "UpdateRefreshSchedule",
     "UpdateResourcePermissions",
@@ -19322,6 +19337,7 @@
     "quicksight:DirectoryType",
     "quicksight:Edition",
     "quicksight:IamArn",
+    "quicksight:KmsKeyArns",
     "quicksight:SessionName",
     "quicksight:UserName"
    ]

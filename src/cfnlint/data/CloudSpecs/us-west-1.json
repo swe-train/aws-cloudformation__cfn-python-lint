@@ -5274,55 +5274,7 @@
   "AWS::Lambda::LayerVersionPermission": "CACHED",
   "AWS::Lambda::Permission": "CACHED",
   "AWS::Lambda::Url": "CACHED",
-  "AWS::Lambda::Version": {
-   "Attributes": {
-    "FunctionArn": {
-     "PrimitiveType": "String"
-    },
-    "Version": {
-     "PrimitiveType": "String"
-    }
-   },
-   "Documentation": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-version.html",
-   "Properties": {
-    "CodeSha256": {
-     "Documentation": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-version.html#cfn-lambda-version-codesha256",
-     "PrimitiveType": "String",
-     "Required": false,
-     "UpdateType": "Immutable"
-    },
-    "Description": {
-     "Documentation": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-version.html#cfn-lambda-version-description",
-     "PrimitiveType": "String",
-     "Required": false,
-     "UpdateType": "Immutable",
-     "Value": {
-      "ValueType": "AWS::Lambda::Version.Description"
-     }
-    },
-    "FunctionName": {
-     "Documentation": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-version.html#cfn-lambda-version-functionname",
-     "PrimitiveType": "String",
-     "Required": true,
-     "UpdateType": "Immutable",
-     "Value": {
-      "ValueType": "AWS::Lambda::Version.FunctionName"
-     }
-    },
-    "ProvisionedConcurrencyConfig": {
-     "Documentation": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-version.html#cfn-lambda-version-provisionedconcurrencyconfig",
-     "Required": false,
-     "Type": "ProvisionedConcurrencyConfiguration",
-     "UpdateType": "Immutable"
-    },
-    "RuntimePolicy": {
-     "Documentation": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-version.html#cfn-lambda-version-runtimepolicy",
-     "Required": false,
-     "Type": "RuntimePolicy",
-     "UpdateType": "Immutable"
-    }
-   }
-  },
+  "AWS::Lambda::Version": "CACHED",
   "AWS::LicenseManager::Grant": "CACHED",
   "AWS::LicenseManager::License": "CACHED",
   "AWS::Logs::AccountPolicy": "CACHED",

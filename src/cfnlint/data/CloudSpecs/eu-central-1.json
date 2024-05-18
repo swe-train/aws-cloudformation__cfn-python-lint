@@ -3317,7 +3317,10 @@
      "Documentation": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-mediatailor-playbackconfiguration-availsuppression.html#cfn-mediatailor-playbackconfiguration-availsuppression-fillpolicy",
      "PrimitiveType": "String",
      "Required": false,
-     "UpdateType": "Mutable"
+     "UpdateType": "Mutable",
+     "Value": {
+      "ValueType": "AWS::MediaTailor::PlaybackConfiguration.AvailSuppression.FillPolicy"
+     }
     },
     "Mode": {
      "Documentation": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-mediatailor-playbackconfiguration-availsuppression.html#cfn-mediatailor-playbackconfiguration-availsuppression-mode",
@@ -10945,6 +10948,12 @@
   "AWS::MediaTailor::Channel.PlaybackMode": "CACHED",
   "AWS::MediaTailor::Channel.Tier": "CACHED",
   "AWS::MediaTailor::LiveSource.HttpPackageConfiguration.Type": "CACHED",
+  "AWS::MediaTailor::PlaybackConfiguration.AvailSuppression.FillPolicy": {
+   "AllowedValues": [
+    "PARTIAL_AVAIL",
+    "FULL_AVAIL_ONLY"
+   ]
+  },
   "AWS::MediaTailor::PlaybackConfiguration.AvailSuppression.Mode": "CACHED",
   "AWS::MediaTailor::PlaybackConfiguration.DashConfiguration.OriginManifestType": "CACHED",
   "AWS::MediaTailor::PlaybackConfiguration.Name": "CACHED",

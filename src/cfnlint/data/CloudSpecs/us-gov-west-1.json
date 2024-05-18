@@ -7332,43 +7332,7 @@
   "AWS::SageMaker::Domain.CustomImage": "CACHED",
   "AWS::SageMaker::Domain.CustomPosixUserConfig": "CACHED",
   "AWS::SageMaker::Domain.DefaultEbsStorageSettings": "CACHED",
-  "AWS::SageMaker::Domain.DefaultSpaceSettings": {
-   "Documentation": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sagemaker-domain-defaultspacesettings.html",
-   "Properties": {
-    "ExecutionRole": {
-     "Documentation": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sagemaker-domain-defaultspacesettings.html#cfn-sagemaker-domain-defaultspacesettings-executionrole",
-     "PrimitiveType": "String",
-     "Required": true,
-     "UpdateType": "Mutable",
-     "Value": {
-      "ValueType": "AWS::SageMaker::Domain.DefaultSpaceSettings.ExecutionRole"
-     }
-    },
-    "JupyterServerAppSettings": {
-     "Documentation": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sagemaker-domain-defaultspacesettings.html#cfn-sagemaker-domain-defaultspacesettings-jupyterserverappsettings",
-     "Required": false,
-     "Type": "JupyterServerAppSettings",
-     "UpdateType": "Mutable"
-    },
-    "KernelGatewayAppSettings": {
-     "Documentation": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sagemaker-domain-defaultspacesettings.html#cfn-sagemaker-domain-defaultspacesettings-kernelgatewayappsettings",
-     "Required": false,
-     "Type": "KernelGatewayAppSettings",
-     "UpdateType": "Mutable"
-    },
-    "SecurityGroups": {
-     "Documentation": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sagemaker-domain-defaultspacesettings.html#cfn-sagemaker-domain-defaultspacesettings-securitygroups",
-     "DuplicatesAllowed": true,
-     "PrimitiveItemType": "String",
-     "Required": false,
-     "Type": "List",
-     "UpdateType": "Mutable",
-     "Value": {
-      "ValueType": "AWS::SageMaker::Domain.DefaultSpaceSettings.SecurityGroups"
-     }
-    }
-   }
-  },
+  "AWS::SageMaker::Domain.DefaultSpaceSettings": "CACHED",
   "AWS::SageMaker::Domain.DefaultSpaceStorageSettings": "CACHED",
   "AWS::SageMaker::Domain.DockerSettings": "CACHED",
   "AWS::SageMaker::Domain.DomainSettings": "CACHED",
