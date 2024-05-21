@@ -2780,6 +2780,7 @@
     "GetLandingZoneOperation",
     "GetLandingZoneStatus",
     "ListBaselines",
+    "ListControlOperations",
     "ListDirectoryGroups",
     "ListDriftDetails",
     "ListEnabledBaselines",
@@ -5184,6 +5185,7 @@
     "DeleteDatastore",
     "DeleteImageSet",
     "GetDICOMImportJob",
+    "GetDICOMInstance",
     "GetDatastore",
     "GetImageFrame",
     "GetImageSet",
@@ -10499,6 +10501,18 @@
     "aws:TagKeys"
    ]
   },
+  "AWS User Subscriptions": {
+   "Actions": [
+    "CreateClaim",
+    "DeleteClaim",
+    "ListApplicationClaims",
+    "ListClaims",
+    "ListUserSubscriptions",
+    "UpdateClaim"
+   ],
+   "HasResource": false,
+   "StringPrefix": "user-subscriptions"
+  },
   "AWS Verified Access": {
    "Actions": [
     "AllowVerifiedAccess"
@@ -15593,7 +15607,8 @@
     "UpdateApiDestination",
     "UpdateArchive",
     "UpdateConnection",
-    "UpdateEndpoint"
+    "UpdateEndpoint",
+    "UpdateEventBus"
    ],
    "HasResource": true,
    "StringPrefix": "events",
@@ -17693,8 +17708,12 @@
     "AssociateLicense",
     "CreateWorkspace",
     "CreateWorkspaceApiKey",
+    "CreateWorkspaceServiceAccount",
+    "CreateWorkspaceServiceAccountToken",
     "DeleteWorkspace",
     "DeleteWorkspaceApiKey",
+    "DeleteWorkspaceServiceAccount",
+    "DeleteWorkspaceServiceAccountToken",
     "DescribeWorkspace",
     "DescribeWorkspaceAuthentication",
     "DescribeWorkspaceConfiguration",
@@ -17702,6 +17721,8 @@
     "ListPermissions",
     "ListTagsForResource",
     "ListVersions",
+    "ListWorkspaceServiceAccountTokens",
+    "ListWorkspaceServiceAccounts",
     "ListWorkspaces",
     "TagResource",
     "UntagResource",
@@ -18999,18 +19020,21 @@
     "CreateAssistant",
     "CreateAssistantAssociation",
     "CreateContent",
+    "CreateContentAssociation",
     "CreateKnowledgeBase",
     "CreateQuickResponse",
     "CreateSession",
     "DeleteAssistant",
     "DeleteAssistantAssociation",
     "DeleteContent",
+    "DeleteContentAssociation",
     "DeleteImportJob",
     "DeleteKnowledgeBase",
     "DeleteQuickResponse",
     "GetAssistant",
     "GetAssistantAssociation",
     "GetContent",
+    "GetContentAssociation",
     "GetContentSummary",
     "GetImportJob",
     "GetKnowledgeBase",
@@ -19019,6 +19043,7 @@
     "GetSession",
     "ListAssistantAssociations",
     "ListAssistants",
+    "ListContentAssociations",
     "ListContents",
     "ListImportJobs",
     "ListKnowledgeBases",
@@ -19185,6 +19210,7 @@
     "DescribeIAMPolicyAssignment",
     "DescribeIngestion",
     "DescribeIpRestriction",
+    "DescribeKeyRegistration",
     "DescribeNamespace",
     "DescribeRefreshSchedule",
     "DescribeRoleCustomPermission",
@@ -19284,6 +19310,7 @@
     "UpdateIAMPolicyAssignment",
     "UpdateIdentityPropagationConfig",
     "UpdateIpRestriction",
+    "UpdateKeyRegistration",
     "UpdatePublicSharingSettings",
     "UpdateRefreshSchedule",
     "UpdateResourcePermissions",
@@ -19311,6 +19338,7 @@
     "quicksight:DirectoryType",
     "quicksight:Edition",
     "quicksight:IamArn",
+    "quicksight:KmsKeyArns",
     "quicksight:SessionName",
     "quicksight:UserName"
    ]

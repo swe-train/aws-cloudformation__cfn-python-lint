@@ -28,6 +28,9 @@
   "CacheParameterGroupFamily": {
    "type": "string"
   },
+  "CacheParameterGroupName": {
+   "type": "string"
+  },
   "Description": {
    "type": "string"
   },
@@ -51,6 +54,7 @@
   }
  },
  "readOnlyProperties": [
+  "/properties/CacheParameterGroupName",
   "/properties/Id"
  ],
  "required": [
